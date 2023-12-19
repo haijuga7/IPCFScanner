@@ -16,3 +16,9 @@ python3 IPCFScan.py
 ```
 python3 IPCFscan.py 10.10.10.0/24
 ```
+
+## Note
+
+```
+Don't Use VPN
+```
