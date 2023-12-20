@@ -20,5 +20,6 @@ python3 IPCFscan.py 10.10.10.0/24
 ## Note
 
 ```
+Mohon maaf jika proxynya ada yang tidak bisa di pakai saya akan memperbaikinya terlebih dahulu😅
 Don't Use VPN
 ```
