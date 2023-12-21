@@ -4,6 +4,7 @@ proxy ip scanner for proxy vless cloudflare use proxy range
 ## Install
 
 ```sh
+pkg update && pkg upgrade
 pkg install git python3
 git clone https://github.com/haijuga7/IPCFScanner.git
 cd IPCDScanner
