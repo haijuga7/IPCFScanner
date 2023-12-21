@@ -11,7 +11,7 @@ an example is below
 pkg update && pkg upgrade
 pkg install git python3
 git clone https://github.com/haijuga7/IPCFScanner.git
-cd IPCfScanner
+cd IPCFScanner
 python3 -m pip install -r requirements.txt
 python3 ipcfscan.py -h
 ```
