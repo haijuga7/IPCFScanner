@@ -30,5 +30,5 @@ python3 ipcfscan.py -f test_cidr.txt
 ```
 for more information
 ```
-python3 ipcfscan.py -f
+python3 ipcfscan.py -h
 ```
