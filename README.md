@@ -1,31 +1,34 @@
 # IPCFScanner
+
+The main purpose of this tool is to scan CIDR to find IP proxies for CF Vless, but due to program deficiencies, this tool can only be used to scan IPs connected to Cloudflare, so to determine whether the IP is a proxy IP, you have to check again on this website, [click here](https://cfip-check.pages.dev/)
+an example is below
+
 ![termux](https://raw.githubusercontent.com/haijuga7/IPCFScanner/main/src/Screenshot_20231221-230839_Termux.png) ![chrome](https://raw.githubusercontent.com/haijuga7/IPCFScanner/main/src/Screenshot_20231221-231714_Chrome.png)
-proxy ip scanner for proxy vless cloudflare use proxy range
 
-
-
-## Install
+## How To Install
 
 ```sh
 pkg update && pkg upgrade
 pkg install git python3
 git clone https://github.com/haijuga7/IPCFScanner.git
-cd IPCDScanner
+cd IPCfScanner
 python3 -m pip install -r requirements.txt
-python3 IPCFScan.py
+python3 ipcfscan.py -h
 ```
 
 ## Usage
 
+for CIDR / IP RANGE
 ```
-python3 IPCFscan.py 10.10.10.0/24
+python3 ipcfscan.py -p 10.10.10.0/24
 ```
-
-## Note
-
+for File with format
+1.1.1.0/24
+2.2.2.0/24
 ```
-Mohon maaf jika proxynya ada yang
-tidak bisa di pakai saya akan
-memperbaikinya terlebih dahulu😅
-Don't Use VPN
+python3 ipcfscan.py -f test_cidr.txt
+```
+for more information
+```
+python3 ipcfscan.py -f
 ```
