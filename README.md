@@ -1,5 +1,5 @@
 # IPCFScanner
-(https://raw.githubusercontent.com/haijuga7/IPCFScanner/main/src/Screenshot_20231221-230839_Termux.png) (https://raw.githubusercontent.com/haijuga7/IPCFScanner/main/src/Screenshot_20231221-231714_Chrome.png)
+![termux](https://raw.githubusercontent.com/haijuga7/IPCFScanner/main/src/Screenshot_20231221-230839_Termux.png) ![chrome](https://raw.githubusercontent.com/haijuga7/IPCFScanner/main/src/Screenshot_20231221-231714_Chrome.png)
 proxy ip scanner for proxy vless cloudflare use proxy range
 
 
