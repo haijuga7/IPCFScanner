@@ -13,22 +13,22 @@ pkg install git python3
 git clone https://github.com/haijuga7/IPCFScanner.git
 cd IPCFScanner
 python3 -m pip install -r requirements.txt
-python3 ipcfscan.py -h
+python3 ipcfscanner.py -h
 ```
 
 ## Usage
 
 for CIDR / IP RANGE
 ```
-python3 ipcfscan.py -p 10.10.10.0/24
+python3 ipcfscanner.py -p 10.10.10.0/24
 ```
 for File with format
 1.1.1.0/24
 2.2.2.0/24
 ```
-python3 ipcfscan.py -f test_cidr.txt
+python3 ipcfscanner.py -f test_cidr.txt
 ```
 for more information
 ```
-python3 ipcfscan.py -h
+python3 ipcfscanner.py -h
 ```
